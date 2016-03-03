@@ -1,4 +1,3 @@
-//#include "HID.h"
 #include "Joystick.h"
 
 void setup() {
@@ -21,7 +20,7 @@ void setup() {
 void loop() {
   //clear
   Joystick.clearState();
-  //tweak the joystick state
+  //tweak the joystick state (see joystick.h for all possible fields)
   Joystick.state.x.axis = analogRead(0)-512;
   Joystick.state.y.axis = 511-analogRead(1);
   Joystick.state.buttons.b00 = !digitalRead(2);
@@ -31,8 +30,7 @@ void loop() {
   Joystick.state.buttons.b04 = !digitalRead(6);
   Joystick.state.hats.switch1 = HAT_LEFT;
   Joystick.state.hats.switch2 = HAT_UP;
-  
-  // put your main code here, to run repeatedly:
+  //call send state to pack and send the current state over usb
   Joystick.sendState();
   delay(50);
 }
