@@ -1,7 +1,6 @@
 = Joystick Library for Arduino =
 
 This library allows an Arduino board with USB capabilites to act as a Joystick.
-Being based on HID library you need to include "HID.h" in your sketch
 
 == License ==
 
