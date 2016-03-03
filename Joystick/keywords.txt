@@ -1,0 +1,83 @@
+#######################################
+# Syntax Coloring Map For Joystick
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Joystick	KEYWORD1
+axis16_t	KEYWORD1
+hats8_t		KEYWORD1
+button32_t	KEYWORD1
+JoyState_t	KEYWORD1
+state		KEYWORD1
+x			KEYWORD1
+y			KEYWORD1
+z			KEYWORD1
+xRot		KEYWORD1
+yRot		KEYWORD1
+zRot		KEYWORD1
+slider		KEYWORD1
+dial		KEYWORD1
+axis		KEYWORD1
+hats		KEYWORD1
+buttons		KEYWORD1
+switch1		KEYWORD1
+switch2		KEYWORD1
+b00			KEYWORD1
+b01			KEYWORD1
+b02			KEYWORD1
+b03			KEYWORD1
+b04			KEYWORD1
+b05			KEYWORD1
+b06			KEYWORD1
+b07			KEYWORD1
+b08			KEYWORD1
+b09			KEYWORD1
+b10			KEYWORD1
+b11			KEYWORD1
+b12			KEYWORD1
+b13			KEYWORD1
+b14			KEYWORD1
+b15			KEYWORD1
+b16			KEYWORD1
+b17			KEYWORD1
+b18			KEYWORD1
+b19			KEYWORD1
+b20			KEYWORD1
+b21			KEYWORD1
+b22			KEYWORD1
+b23			KEYWORD1
+b24			KEYWORD1
+b25			KEYWORD1
+b26			KEYWORD1
+b27			KEYWORD1
+b28			KEYWORD1
+b29			KEYWORD1
+b30			KEYWORD1
+b31			KEYWORD1
+bitfield	KEYWORD1
+HAT_UP		KEYWORD1
+HAT_UPRIGHT	KEYWORD1
+HAT_RIGHT	KEYWORD1
+HAT_DOWNRIGHT	KEYWORD1
+HAT_DOWN	KEYWORD1
+HAT_DOWNLEFT	KEYWORD1
+HAT_LEFT	KEYWORD1
+HAT_UPLEFT	KEYWORD1
+HAT_CENTER	KEYWORD1
+AXIS_CENTER	KEYWORD1
+AXIS_MIN	KEYWORD1
+AXIS_MAX	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+clearState	KEYWORD2
+sendState	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
