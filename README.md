@@ -1,6 +1,7 @@
 = Joystick Library for Arduino =
 
-This library allows an Arduino board with USB capabilites to act as a Joystick.
+This library allows an Arduino board with USB capabilites to act as a Joystick. 
+Currently supports Due and Leonardo.
 
 currently supports:
 8 16-bit axes
